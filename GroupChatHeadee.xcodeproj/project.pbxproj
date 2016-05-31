@@ -18,6 +18,7 @@
 		F33DA9151CF43D130024F00C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33DA9141CF43D130024F00C /* Person.swift */; };
 		F33DA9181CF43EB60024F00C /* GroupChatHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33DA9171CF43EB60024F00C /* GroupChatHeadView.swift */; };
 		F33DA91A1CF44E640024F00C /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33DA9191CF44E640024F00C /* RoundedView.swift */; };
+		F3A57A121CFD84AF005A021B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A57A111CFD84AF005A021B /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F33DA9141CF43D130024F00C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = Models/Person.swift; sourceTree = "<group>"; };
 		F33DA9171CF43EB60024F00C /* GroupChatHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupChatHeadView.swift; path = Views/GroupChatHeadView.swift; sourceTree = "<group>"; };
 		F33DA9191CF44E640024F00C /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedView.swift; path = Views/RoundedView.swift; sourceTree = "<group>"; };
+		F3A57A111CFD84AF005A021B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		F33DA8E21CF43BB50024F00C /* GroupChatHeadee */ = {
 			isa = PBXGroup;
 			children = (
+				F3A57A101CFD8497005A021B /* Extensions */,
 				F33DA9161CF43E880024F00C /* Views */,
 				F33DA9111CF43BC70024F00C /* Models */,
 				F33DA8E31CF43BB50024F00C /* AppDelegate.swift */,
@@ -151,6 +154,14 @@
 				F33DA9191CF44E640024F00C /* RoundedView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		F3A57A101CFD8497005A021B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57A111CFD84AF005A021B /* UIView+Extension.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F33DA8E61CF43BB50024F00C /* ViewController.swift in Sources */,
+				F3A57A121CFD84AF005A021B /* UIView+Extension.swift in Sources */,
 				F33DA9181CF43EB60024F00C /* GroupChatHeadView.swift in Sources */,
 				F33DA91A1CF44E640024F00C /* RoundedView.swift in Sources */,
 				F33DA8E41CF43BB50024F00C /* AppDelegate.swift in Sources */,
@@ -514,6 +526,7 @@
 				F33DA90A1CF43BB50024F00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F33DA90B1CF43BB50024F00C /* Build configuration list for PBXNativeTarget "GroupChatHeadeeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				F33DA90D1CF43BB50024F00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F33DA90E1CF43BB50024F00C /* Build configuration list for PBXNativeTarget "GroupChatHeadeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				F33DA9101CF43BB50024F00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

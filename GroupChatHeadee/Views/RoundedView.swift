@@ -1,25 +1,13 @@
 import UIKit
 
-/// Creates a rounded button from any rectangular frame.
-/// Note that attempting to create round button from rectanglar frame instead of sqaure frame
-/// will change the origin of the button which needs to be accounted for by the developer.
-
 class RoundedView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        changeToSquareShape()
-        createRoundBorder()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        changeToSquareShape()
-        createRoundBorder()
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
     }
     
     override func layoutSubviews() {
